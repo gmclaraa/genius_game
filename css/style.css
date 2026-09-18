@@ -85,19 +85,19 @@ body {
     border-bottom-right-radius: 100%;
 }
 
-.gamepad-tl.active {
+.gamepad-tl.game__pad--active {
     background: var(--color-green-active);
 }
 
-.gamepad-tr.active {
+.gamepad-tr.game__pad--active {
     background: var(--color-red-active);
 }
 
-.gamepad-bl.active {
+.gamepad-bl.game__pad--active {
     background: var(--color-yellow-active);
 }
 
-.gamepad-br.active {
+.gamepad-br.game__pad--active {
     background: var(--color-blue-active);
 }
 
@@ -224,11 +224,11 @@ footer {
     padding-left: .3rem;
 }
 
-.gui__counter--on{
+.gui__counter--on {
     color: #dc0d29;
 }
 
-.gui__led{
+.gui__led {
     background-color: #32050c;
     margin-left: 1rem;
     margin-bottom: .5rem;
@@ -238,6 +238,14 @@ footer {
     border-radius: 2rem;
 }
 
-.gui__led--active{
+.gui__led--active {
     background-color: red;
 }
+
+
+@media(max-width:600px){
+    html{
+        font-size: 45%;
+    }
+}
+
