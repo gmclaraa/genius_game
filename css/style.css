@@ -1,0 +1,115 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Bungee", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 48rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.game {
+    width: 48rem;
+    height: 48rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    position: relative;
+}
+
+.game-title {
+    font-size: 4rem;
+    text-transform: uppercase;
+    margin: 0;
+    padding-left: 1.2rem;
+
+    padding-top: 4.7rem;
+}
+
+.gamepad {
+    width: calc(48rem/2);
+    height: calc(48rem/2);
+}
+
+.gamepad-tr {
+    background: #9f0f17;
+    border-top-right-radius: 100%;
+}
+
+.gamepad-tl {
+    background: #00a74a;
+    border-top-left-radius: 100%;
+
+}
+
+.gamepad-bl {
+    background: #cca707;
+    border-bottom-left-radius: 100%;
+}
+
+.gamepad-br {
+    background: #094a8f;
+    border-bottom-right-radius: 100%;
+}
+
+.gamepad-tl.active {
+    background: #13ff7c;
+}
+
+.gamepad-tr.active {
+    background: #ff4c4c;
+}
+
+.gamepad-bl.active {
+    background: #fed93f;
+}
+
+.gamepad-br.active {
+    background: #1c8cff;
+
+}
+
+.gamepad.btn {
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 1rem;
+}
+
+.game-options {
+    background-color: #eee;
+    position: absolute;
+
+    background-color: center;
+    width: calc(48rem/2);
+    height: calc(48rem/2);
+
+    top: calc(48rem/4);
+    left: calc(48rem/4);
+
+    border: 1.5rem solid #333;
+    border-radius: 25rem;
+
+}
+
+.reg{
+    font-family: Verdana, sans-serif;
+    font-size: 1.8rem;
+    margin-left: -.1rem;
+    vertical-align: top;
+}

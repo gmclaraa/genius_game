@@ -5,16 +5,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Genius</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Bungee&family=Iceberg&display=swap"
         rel="stylesheet">
 </head>
-<body>
-    <div></div>
 
+<body>
+    <div class="container">
+        <div class="game">
+            <div class="gamepad gamepad-tl"></div>
+            <div class="gamepad gamepad-tr"></div>
+            <div class="gamepad gamepad-bl"></div>
+            <div class="gamepad gamepad-br"></div>
+
+            <div class="game-options">
+                <h1 class="game-title">Genius<span class="reg">®</span></h1>
+                
+                <div class="gui">
+                    <div class="group">
+                        <div class="gui-counter">--</div>
+                        <p class="gui-label">Count</p>
+                    </div>
+                    <div class="group">
+                        <div class="gui-btn start"></div>
+                        <p class="gui-label">Start</p>
+                    </div>
+                    <div class="group">
+                        <div class="gui-led"></div>
+                        <div class="gui-btn strict"></div>
+                        <p class="gui-label">Strict</p>
+                    </div>
+                    <div class="group group-large">
+                        <p class="gui-label switch">on</p>
+                        <div class="gui-btn switch"></div>
+                        <p class="gui-label switch">off</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>@gmclaraa -2026</footer>
 
     <script src="./script.js"></script>
 </body>
