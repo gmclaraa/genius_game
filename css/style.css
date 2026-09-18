@@ -62,6 +62,7 @@ body {
 .gamepad {
     width: var(--gamepad-size);
     height: var(--gamepad-size);
+    border: 1.5rem solid var(--color-dark);
 }
 
 .gamepad-tr {
@@ -211,7 +212,7 @@ footer {
 
 .gui__counter {
     background-color: #32050C;
-    color: #DC0D29;
+    color: #32050C;
     font-family: "Iceland", cursive;
     font-size: 3rem;
     font-weight: bold;
@@ -225,4 +226,18 @@ footer {
 
 .gui__counter--on{
     color: #dc0d29;
+}
+
+.gui__led{
+    background-color: #32050c;
+    margin-left: 1rem;
+    margin-bottom: .5rem;
+    width: .8rem;
+    height: .8rem;
+    border: .2rem solid #222;
+    border-radius: 2rem;
+}
+
+.gui__led--active{
+    background-color: red;
 }
